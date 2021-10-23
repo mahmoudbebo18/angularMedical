@@ -1,0 +1,64 @@
+<div class="contact-us">
+    <div class="container">
+        <h2 class="contact-head"> 
+            {{ "contact.head" | translate }}
+        </h2>
+        <p  class="contact-desc">
+            {{ "contact.desc" | translate }}
+        </p>
+
+        <form class="send-message">
+            <div class="d-flex  inputs-holder">
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="{{'contact.name'| translate}}"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="7" r="4" />
+                        <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                      </svg>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="email" placeholder="{{'contact.email'| translate}}"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-at" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="12" r="4" />
+                        <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28" />
+                      </svg>
+
+                    
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="number" placeholder="{{'contact.phone'| translate}}"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="7" y="4" width="10" height="16" rx="1" />
+                        <line x1="11" y1="5" x2="13" y2="5" />
+                        <line x1="12" y1="17" x2="12" y2="17.01" />
+                      </svg>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="{{'contact.subject'| translate}}"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-edit" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M9 7h-3a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-3" />
+                        <path d="M9 15h3l8.5 -8.5a1.5 1.5 0 0 0 -3 -3l-8.5 8.5v3" />
+                        <line x1="16" y1="5" x2="19" y2="8" />
+                      </svg>
+                </div>
+                <div class="form-group  the-message-holder">
+                    <textarea class="form-control" rows="3" type="text" placeholder="{{'contact.message'| translate}}"></textarea>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-forward" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 18h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v7.5" />
+                        <path d="M3 6l9 6l9 -6" />
+                        <path d="M15 18h6" />
+                        <path d="M18 15l3 3l-3 3" />
+                      </svg>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary">  {{'contact.send'| translate}} </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

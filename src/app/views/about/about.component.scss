@@ -1,0 +1,92 @@
+@import "../../../styles.scss";
+
+/* start testimonial*/
+
+.testimonial {
+  padding: 70px 0;
+  background-color: $bgColor;
+}
+.testi-content {
+  margin-bottom: 20px;
+}
+.testimonial h2.team-head {
+  text-align: center;
+  font-weight: 700;
+  color: #111;
+  font-size: 3em;
+  letter-spacing: 1px;
+}
+.testimonial p.team-desc {
+  font-size: 1em;
+  margin: 0;
+  color: #f2a000;
+  margin-bottom: 3em;
+  font-weight: 400;
+  letter-spacing: 10px;
+  text-align: center;
+}
+.media-body {
+  text-align: start;
+}
+
+.testimonial .testi-desc {
+  margin-bottom: 60px;
+  color: #a1a1a1;
+  font-size: 15px;
+}
+
+.testimonial .media {
+  img {
+    width: 80px;
+    height: 80px;
+    margin-inline-end: 12px;
+  }
+}
+.testimonial .media-intro {
+  padding: 15px;
+  background-color: #fff;
+  color: $textColor;
+  margin-bottom: 25px;
+  position: relative;
+  border-radius: 1px;
+  display: flex;
+  justify-content: space-between;
+  svg {
+    transition: 0.5s;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.testimonial .media-intro:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-style: solid;
+  border-width: 15px;
+  border-color: #fff transparent transparent;
+  left: 25px;
+  bottom: -28px;
+}
+
+.testimonial .media-heading {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 18px;
+  color: $mainColor;
+  margin-bottom: 0;
+}
+
+.testimonial .job {
+  color: $textColor;
+  margin-bottom: 0;
+}
+
+/* end testimonial*/
+
+
+.hvr-rectangle-in{
+    display: none;
+}

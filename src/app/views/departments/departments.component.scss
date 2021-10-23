@@ -1,0 +1,46 @@
+@import "../../../styles.scss";
+.departs {
+  padding: 50px 0;
+  .depart-head {
+    text-align: center;
+    font-weight: 700;
+    color: #111;
+    font-size: 3em;
+    letter-spacing: 1px;
+  }
+  .depart-p {
+    font-size: 1em;
+    margin: 0;
+    color: #f2a000;
+    margin-bottom: 3em;
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-align: center;
+  }
+}
+
+.card-header{
+    background-color: $mainColor;
+    h5{
+        text-align: start;
+        .btn-link{
+            color: #fff;
+            text-decoration: none;
+            font-size: 24px;
+            display: block;
+            width: 100%;
+            text-align: start;
+           
+        }
+    }
+}
+.tab-info{
+    h4{
+        color:#111
+    }
+    p{
+        font-size: 16px;
+        line-height: 26px;
+        color:$textColor
+    }
+}

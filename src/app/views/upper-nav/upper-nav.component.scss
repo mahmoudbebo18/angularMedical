@@ -1,0 +1,62 @@
+/*myVars */
+@import "../../../styles.scss";
+
+.upperNav {
+  background-color: $secColor;
+  direction: ltr !important;
+
+  .content {
+    padding: 13px 0;
+    .left-contact {
+      justify-content: space-between;
+      p {
+        margin: 0;
+        margin-right: 50px;
+        span {
+          font-size: 14px;
+          color: #212529;
+        }
+      }
+      a {
+        text-decoration: none;
+        span {
+          font-size: 14px;
+          color: #212529;
+        }
+      }
+      img {
+        margin-right: 8px;
+      }
+    }
+    .social {
+      a {
+        margin-right: 12px;
+      }
+    }
+    @media (max-width: 767px) {
+      flex-wrap: wrap;
+      .left-contact {
+        width: 100%;
+        margin-bottom: 16px;
+        p {
+          margin-right: 0;
+        }
+      }
+      .social {
+        width: 100%;
+      }
+    }
+    @media (max-width: 520px) {
+      .left-contact {
+        flex-wrap: wrap;
+        p {
+          width: 100%;
+        }
+        a {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

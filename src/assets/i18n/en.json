@@ -1,0 +1,94 @@
+{
+
+    "dir":"ltr",
+    "currentLang":"en",
+
+
+    "navBar":{
+        "logo":"en-logo",
+        "Home":"Home",
+        "About":"About",
+        "Contact":"Contact Us",
+        "departments":"Departments",
+        "searchPopup":{
+            "searchHeading":"What Do You Want ?",
+            "searchButton":"Search",
+            "closeButton":"Close"
+        }
+
+    },
+    "slider":{
+        "badge":"co clinic",
+        "h1":"Quality Care",
+        "p":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita ea facilis quidem totam aliquam id non reprehenderit nesciunt minima perspiciatis?"
+    },
+    "welcome":{
+        "heading":"Welcome to our Co CLINIC",
+        "p":"Add Short Description",
+        "description":" Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed blandit massa vel mauris sollicitudin dignissim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at placerat ante. Praesent nulla nunc, pretium dapibus efficitur in, auctor eget elit. Lorem ipsum dolor sit amet",
+        "h5":"We Care About Your Health",
+        "subtitleDesc-1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at placerat ante. Praesent nulla nunc, pretium dapibus efficitur in, auctor eget elit. Lorem ipsum dolor sit amet",
+        "subtitleDesc-2":" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at placerat ante. Praesent nulla nunc, pretium dapibus efficitur in, auctor eget elit. Lorem ipsum dolor sit amet",
+        "readMore":"Read More"
+    },
+    "whatWeDo":{
+        "heading":"What We Do Best",
+        "p":"Add Short Description",
+        "dna":"DNA Testing",
+        "desc":" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi,ipsam.",
+        "emergency":"Emergency Care",
+        "booking":"Easy Booking",
+        "treatment":"General Treatment"
+    },
+    "statistics":{
+        "saved":"Saved hearts",
+        "car":"Ambulance Car",
+        "chair":"Wheelchair",
+        "rooms":"Hospital Rooms"
+    },
+    "subscrible":{
+        "subscribleNow":"Subscrible now",
+        "h2":"Get every single",
+        "br":"update you will get",
+        "email":"Enter email address"
+    },
+    "footer":{
+        "about":"About Us",
+        "firstP":"Duis aute irure dolor in reprehenderit in voluptate velit esse.",
+        "secondP":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.",
+        "contact":"CONTACT INFORMATION",
+        "NAVIGATION":"NAVIGATION",
+        "homeLink":"Home",
+        "aboutLink":"About",
+        "faqLink":"FAQ",
+        "contactLink":"Contact",
+        "copyRights":"Copyright © 2021  CO-CLINIC"
+    },
+    "team":{
+        "heading":"Our Team",
+        "p":"Add Short Description",
+        "name":"Jeremy H.",
+        "job":"maneger"
+    },
+    "departs":{
+        "heading":"Departments",
+        "p":"Add Short Description",
+        "Neurology":"Neurology",
+        "dental":"Dental",
+        "eyeCare":"Eye Care",
+        "babyCare":"Baby Care",
+        "h4":"We are having department to us",
+        "desc":" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi,ipsam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi"
+
+    },
+    "contact":{
+        "head":"Contact Us",
+        "desc":"Get in touch...",
+        "name":"Name",
+        "email":"Email",
+        "subject":"Subject",
+        "phone":"Phone",
+        "message":"Message",
+        "send":"Send"
+    }
+}

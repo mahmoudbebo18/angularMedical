@@ -1,0 +1,90 @@
+@import "../../../styles.scss";
+.navbar {
+  background-color: $bgColor;
+  padding: 0;
+  .container {
+    @media (max-width: 575px) {
+      padding: 0 15px;
+    }
+  }
+  .navbar-brand {
+    img {
+      width: 140px !important;
+      height: 70px !important;
+      object-fit: cover;
+    }
+  }
+  .navbar-collapse {
+    justify-content: space-between;
+  }
+  .navbar-nav {
+    width: 100%;
+    justify-content: center;
+    .nav-link {
+      font-weight: bold;
+      color: $mainColor;
+      margin-inline-end: 16px;
+    }
+  }
+  .sign {
+    display: flex;
+    @media (max-width: 991px) {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+    span {
+      border-radius: 4px;
+      padding: 10px;
+      background-color: #fff;
+      cursor: pointer;
+      @media (max-width: 991px) {
+        background-color: #f0f4f9;
+      }
+    }
+  }
+  .navbar-collapse {
+    @media (max-width: 991px) {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+  }
+}
+
+.lang-switch {
+  .dropdown {
+    button {
+      border-radius: 4px;
+      padding: 10px;
+      background-color: #fff;
+      cursor: pointer;
+      margin-inline-end: 10px;
+      border: none;
+      &::after {
+        display: none;
+      }
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+      .ng-fa-icon {
+        width: 24px;
+        height: 24px;
+        display: block;
+        color: #3a3d41;
+      }
+    }
+    .dropdown-menu {
+      .dropdown-item {
+        padding: 8px 10px;
+        display: flex;
+        align-items: center;
+        img {
+          margin: 0 5px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

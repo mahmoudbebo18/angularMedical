@@ -1,0 +1,46 @@
+@import "../../../../styles.scss";
+
+.modal-header {
+  .modal-title {
+    color: $mainColor;
+  }
+  .btn-close {
+    border: none;
+    background-color: crimson;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+}
+
+.modal-body {
+  .input-group {
+    margin-bottom: 0;
+    input {
+      border-radius: 5px 0 0 5px;
+      outline: none;
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+    button {
+      border-radius: 0 5px 5px 0;
+      background-color: $mainColor;
+      border-color: $mainColor;
+      color: #fff;
+      outline: none;
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+.modal-footer {
+  button {
+    background-color: crimson;
+    border-color: crimson;
+  }
+}

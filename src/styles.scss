@@ -1,1 +1,120 @@
 /* You can add global styles to this file, and also import other style files */
+$bgColor: #f0f4f9;
+$mainColor: #2e958e;
+$secColor: #f2a000;
+$textColor: #828282;
+$arabicFont: "cairo";
+$enFont: "inter";
+$secondEnFont: "Georgia";
+
+@font-face {
+  font-family: "inter";
+  src: url(assets/fonts/inter/Inter-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "inter";
+  src: url(assets/fonts/inter/Inter-ExtraBold.ttf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: "inter";
+  src: url(assets/fonts/inter/Inter-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "inter";
+  src: url(assets/fonts/inter/Inter-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Georgia";
+  src: url(assets/fonts/georgia/Georgia_Regular_font.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "cairo";
+  src: url(assets/fonts/cairo/Cairo-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "cairo";
+  src: url(assets/fonts/cairo/Cairo-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "cairo";
+  src: url(assets/fonts/cairo/Cairo-SemiBold.ttf);
+  font-weight: 600;
+}
+
+body {
+  font-family: $enFont;
+}
+
+/* all arabic style will be applied here */
+
+.main-app[dir="rtl"] {
+  font-family: $arabicFont !important;
+  .search-modal {
+    .modal-body {
+      input {
+        border-radius: 0 5px 5px 0 !important ;
+      }
+      button {
+        border-radius: 5px 0 0 5px !important;
+      }
+    }
+  }
+  .carousel-caption {
+    right: 10% !important;
+    left: auto !important;
+    h1 {
+      font-family: $arabicFont !important;
+    }
+  }
+
+  /*.conact*/
+
+  .contact {
+    .right-contact {
+      h2 {
+        font-family: $arabicFont !important;
+      }
+      form {
+        input {
+          padding: 15px !important;
+          padding-right: 44px !important;
+        }
+        button {
+          right: auto !important;
+          left: 6px !important;
+        }
+        img {
+          left: auto;
+          right: 12px;
+        }
+      }
+    }
+  }
+  p.sub_t_agileits,
+  p.desc {
+    letter-spacing: normal !important;
+  }
+  .right-footer {
+    ul {
+      padding-right: 0 !important;
+    }
+  }
+  .testimonial .media-intro:after {
+    left: auto !important;
+    right: 25px !important;
+  }
+
+  .inputs-holder{
+    svg{
+      left: auto !important;
+      right: 9px !important;
+    }
+  }
+}

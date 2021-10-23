@@ -1,0 +1,93 @@
+@import "../../../../../styles.scss";
+.carousel {
+  position: relative;
+  &::after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+  }
+  .carousel-inner {
+    height: calc(100vh - 132px);
+    @media (max-width: 767px) {
+      height: calc(100vh - 174px);
+    }
+    @media (max-width: 520px) {
+      height: calc(100vh - 200px);
+    }
+    .carousel-item {
+      height: 100%;
+      img {
+        height: 100%;
+      }
+      .carousel-caption {
+        position: absolute;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        top: 50%;
+        transition: 0.3s;
+        right: auto;
+        left: 10%;
+        text-align: start;
+        transform: translateY(-50%);
+        height: fit-content;
+        span {
+          background-color: $mainColor;
+          padding: 3px;
+          text-transform: uppercase;
+          display: block;
+          width: fit-content;
+          font-size: 14px;
+        }
+        h1 {
+          font-size: 50px;
+          font-family: $secondEnFont;
+        }
+        p {
+          color: #e2dfdf;
+          font-size: 18px;
+          line-height: 28px;
+          width: 90%;
+        }
+        @media (max-width: 520px) {
+          span {
+            font-size: 13px;
+          }
+          h1 {
+            font-size: 36px;
+          }
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* carousel-indicators*/
+
+.carousel-indicators {
+  li {
+    height: 6px;
+    opacity: 1;
+  }
+  li.active {
+    background-color: $secColor;
+  }
+}
+
+/* controls */
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 7%;
+  z-index: 10;
+}

@@ -1,0 +1,43 @@
+@import "../../../../../styles.scss";
+.statistics{
+    padding: 50px 0 ;
+    background-image: url(../../../../../assets/img/map.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color:rgba(0, 191, 216,.3);
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+
+    }
+    .stat-holder{
+        z-index: 3;
+        position: relative;
+        h3{
+            font: {
+                size:40px;
+                weight:bold;
+                family:$secondEnFont;
+            }
+            margin-bottom: 12px;
+
+        }
+        span{
+            font: {
+                size:16px;
+                weight:bold;
+            }
+            color: #00B2B2;
+        }
+    }
+    .col-lg-3{
+        margin-bottom: 24px;
+    }
+}

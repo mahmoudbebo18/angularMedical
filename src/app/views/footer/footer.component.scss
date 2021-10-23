@@ -1,0 +1,96 @@
+@import "../../../styles.scss";
+footer {
+    background-color: $mainColor;
+    padding: 80px 0;
+    position: relative;
+    h3{
+        color:$secColor;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+    .left-footer {
+        text-align: start;
+        ul {
+            padding: 0;
+            li {
+                align-items: center;
+                margin-bottom: 24px;
+                img {
+                    width: 24px;
+                    height: 24px;
+                    margin-inline-end: 8px;
+                }
+                span {
+                    color: #fff;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .footer-about{
+        text-align: start;
+        p{
+            font-size: 14px;
+            color:#fff;
+        }
+    }
+    .right-footer {
+        text-align: start;
+        .links-holder {
+            h4 {
+                color: #fff;
+                font-weight: bold;
+                font-size: 20px;
+                margin-bottom: 12px;
+            }
+            li {
+                margin-bottom: 16px;
+                a {
+                    color: #fff;
+                    font-size: 14px;
+                }
+            }
+        }
+        @media (max-width: 460px) {
+            flex-wrap: wrap;
+            .links-holder {
+                width: 50%;
+                margin-bottom: 24px;
+                h4 {
+                    font-size: 16px;
+                }
+                a {
+                    font-size: 13px !important;
+                }
+            }
+        }
+    }
+    .copyRights {
+        bottom: 0;
+        background: $secColor;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 24px;
+        span {
+            font-size: 16px;
+        }
+        .social {
+            a {
+                margin-right: 12px;
+            }
+        }
+        @media (max-width: 460px) {
+            flex-wrap: wrap;
+            text-align: center;
+            span {
+                display: block;
+                width: 100%;
+                margin-bottom: 16px;
+            }
+            .social {
+                width: 100%;
+            }
+        }
+    }
+}

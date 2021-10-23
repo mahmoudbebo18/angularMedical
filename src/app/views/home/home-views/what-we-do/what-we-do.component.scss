@@ -1,0 +1,36 @@
+@import "../../../../../styles.scss";
+
+.what-we-do {
+  background-color: $bgColor;
+  padding: 50px 0;
+  h2 {
+    font-weight: 700;
+    color: #111;
+    font-size: 3em;
+    letter-spacing: 1px;
+  }
+  p.desc {
+    font-size: 1em;
+    margin: 0;
+    color: #f2a000;
+    margin-bottom: 3em;
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-align: center;
+  }
+  .my-svg {
+    svg {
+      width: 100px;
+      height: 100px;
+      padding: 20px;
+      margin-bottom: 16px;
+      border-radius: 50%;
+      background-color: #fff;
+    }
+  }
+  .my-caption{
+      p{
+        color:$textColor
+      }
+  }
+}
