@@ -30,11 +30,15 @@
             display: block;
             width: 100%;
             text-align: start;
+            &:focus{
+              box-shadow: none ;
+            }
            
         }
     }
 }
 .tab-info{
+  text-align: start;
     h4{
         color:#111
     }
