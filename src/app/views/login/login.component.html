@@ -1,0 +1,37 @@
+<div class="login d-flex">
+    <div class="right-part"></div>
+    <div class="login-content">
+        <h3> {{ "login.head" | translate }} </h3>
+        <ul class="nav nav-tabs">
+            <li routerLink="visitor">
+                <div class="img">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="7" r="4" />
+                        <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                      </svg>
+                </div>
+                <span> {{ "login.visitor" | translate }}</span>
+            </li>
+            <li routerLink="doctor"> 
+                <div class="img">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-stethoscope" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M6 4h-1a2 2 0 0 0 -2 2v3.5h0a5.5 5.5 0 0 0 11 0v-3.5a2 2 0 0 0 -2 -2h-1" />
+                        <path d="M8 15a6 6 0 1 0 12 0v-3" />
+                        <path  d="M11 3v2" />
+                        <path  d="M6 3v2" />
+                        <circle cx="20" cy="10" r="2" />
+                      </svg>
+                </div>
+                <span>{{ "login.doctor" | translate }}</span>
+            </li>
+
+           
+         </ul>
+         <router-outlet>
+                
+        </router-outlet>
+
+    </div>
+</div>

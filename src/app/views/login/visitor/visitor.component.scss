@@ -1,0 +1,33 @@
+form {
+    width: 400px;
+  }
+  .form-group {
+    svg {
+      position: absolute;
+      left: 0;
+      height: 100%;
+      width: 40px;
+      top: 0;
+      background-color: #2e958e;
+      padding: 4px;
+      padding: 6px;
+      border-radius: 5px 0 0 5px;
+    }
+    input {
+      padding: 10px;
+      height: auto;
+      background-color: #f0f4f9;
+      padding-inline-start: 50px;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+  
+  .alert {
+    padding: 4px;
+    margin-top: -7px;
+    text-align: center;
+    font-weight: bold;
+  }
+  

@@ -88,3 +88,15 @@
     }
   }
 }
+
+.login {
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #fff;
+  cursor: pointer;
+  margin-inline-start: 10px;
+  border: none;
+  svg{
+    transform: scale(-1);
+  }
+}

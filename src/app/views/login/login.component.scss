@@ -1,0 +1,55 @@
+@import "../../../styles.scss";
+.login {
+  height: calc(100vh - 132px);
+  @media (max-width: 767px) {
+    height: calc(100vh - 174px);
+  }
+  @media (max-width: 520px) {
+    height: calc(100vh - 200px);
+  }
+
+  .right-part {
+    flex-basis: 50%;
+    max-width: 100%;
+    background-image: url(../../../assets/img/login.jpeg);
+  }
+  .login-content {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h3{
+      font-size: 36px;
+      margin-bottom: 32px;
+    }
+    ul {
+      width: 100%;
+      justify-content: center;
+      border: none;
+      margin-bottom: 32px;
+      li {
+        margin-inline-end: 28px;
+        text-align: center;
+        cursor: pointer;
+        .img {
+          width: 70px;
+          height: 70px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #2e958e;
+          border-radius: 50%;
+        }
+        span{
+          font-weight: bold;
+          margin-top: 16px;
+          font-size: 20px;
+        }
+      }
+      li:last-of-type{
+        margin-inline-end: 0;
+      }
+    }
+  }
+}
