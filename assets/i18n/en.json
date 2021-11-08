@@ -90,5 +90,15 @@
         "phone":"Phone",
         "message":"Message",
         "send":"Send"
+    },
+    "login":{
+        "head":"Login As",
+        "doctor":"Doctor",
+        "visitor":"Visitor",
+        "email":"Email",
+        "password":"Password",
+        "reqEmail":"Email is Required",
+        "reqPass":"Password is Required",
+        "signIn":"Sign In"
     }
 }
